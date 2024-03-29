@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="content">
+    <header>
+        <nav>
+        <a href="https://www.centennialcollege.ca/?utm_source=google&utm_medium=cpc&utm_campaign=hsm&utm_term=brand&gad_source=1&gclid=CjwKCAjwzN-vBhAkEiwAYiO7oEpaWL5FLGFnAvLbg0McwEmuvHM2ANRBqO2fPEVtceXpua38gVQ7SBoCKsYQAvD_BwE"><img src="clg_logo.jpg" height="30%" width="30%"></a>
+    </nav>
+    </header>
+        <h1>Centennial College</h1>  
+        <h2>Continuing Education Course/ Instructor Evaluation</h2>
+        <p>Please read each statement carefully and consider each one indiviually. Use the <b>computer card</b> to make your choice(use a pencil to fill in the space). Give only <b>one answer</b> for each question.</p>
+        <form action="post">
+                <label for="coursename">Course name/code:</label>
+                <input type="text" id="coursename" name="coursename">
+        
+    
+            <b>Semester:</b>
+            <form action="post">
+                <label class="container">Fall 
+                    <input type="radio" id="semester" name="semester">
+                </label>
+                <label class="container">Winter
+                    <input type="radio" id="semester" name="semester">
+                </label>
+                <label class="container">Spring
+                    <input type="radio" id="semester" name="semester">
+                </label>
+                <label class="container">Summer
+                    <input type="radio" id="semester" name="semester">
+                </label>
+            </form>
+        
+        
+            <form action="post">
+              <label for="year"><b>Year:</b></label>
+              <input type="select" id="year" name="year">
+            </form>
+
+            <form action="post">
+                <label for="instructorname"><b>Instructor:</b></label>
+                <input type="text1" id="instructorname"  name="instructorname">
+            </form>
+
+            <h3>Instructor</h3>
+            <p>How would you rate your instructor's:</p>
+            <ol>
+                <form action="/post">
+                    <li><b>Knowledge</b> of subject?</li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <form action="post">
+                    <li><b>Helpfulness?</b></li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <form action="post">
+                    <li><b>Courtesy and respect</b> for all students?</li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <form action="post">
+                    <li><b>Communication</b> skills?</li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <form action="post">
+                    <li>Overall<b> performance?</b></li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <h3>Course</h3>
+                <form action="post">
+                    <li>How would you rate the <b>course materials?</b></li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+                
+                <form action="post">
+                    <li>How much did this course meet your <b>expectations?</b></li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <form action="post">
+                    <li><b>How would you rate this course</b> (overall)?</li>
+                    <ol type="a">
+                        <li><label class="container">Excellent 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Good
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Fair 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Satisfactory 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <h3>General Information</h3>
+                <form action="post">
+                    <li>Was the <b>course outline</b> reviewed/explained at the beginning of your course?</li>
+                    <ol type="a">
+                        <li><label class="container">Yes 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">No
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Sure 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <form action="post">
+                    <li>Would you <b>recommend </b>this course to a friend with the same interests?</li>
+                    <ol type="a">
+                        <li><label class="container">Yes 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">No
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                        <li><label class="container">Not Sure 
+                            <input type="radio" id="excellent" name="ratings">
+                        </label></li>
+                    </ol>
+                </form>
+
+                <h3>Any Other Comments</h3>
+                <form action="post">
+                    <label for="best thing"><li>What is the <b>best thing</b> about this course?</li></label>
+                    <input type="text" id="best thing" name="best_thing">
+                </form>
+
+                <form action="post">
+                    <label for="improve"><li>How could we <b>improve </b>this course</li></label>
+                    <input type="text" id="improve" name="improve">
+                </form>
+
+                <form action="post">
+                    <label for="other"><li><b>Other:</b></li></label>
+                    <input type="text2" id="other" name="other">
+                </form>    
+            </ol>
+
+            <p>Thank you! We pay attention to your feedback! </p>
+
+            <form action="/submit-form" method="post">
+                <input type="submit" value="Submit">
+              </form>
+                    </form>    
+    </div>
+</body>
+</html>
